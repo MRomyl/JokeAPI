@@ -1,0 +1,22 @@
+<html>
+    <head>
+        <title>JokeAPI</title>
+        <link rel="stylesheet" href="/main.css">
+    </head>
+
+    <body>
+        <div class="container">
+            <div class="response-area">
+                <p class="setup">
+                    <%= setup %>
+                </p>
+                <% if (typeof delivery !== "undefined" && delivery) { %>
+                    <p class="delivery">
+                        <%= delivery %>
+                    </p>
+                <% } %>
+            </div>
+        </div>
+    </body>
+
+</html>
